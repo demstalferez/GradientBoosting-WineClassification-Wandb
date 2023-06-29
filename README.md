@@ -22,6 +22,21 @@ To find the best model, we explore various combinations of hyperparameters such 
 
 We integrate Weights & Biases into our experimentation pipeline, which allows us to log the hyperparameters and the performance metrics for each experiment. Weights & Biases provides us with an interactive dashboard where we can visualize and analyze the results.
 
+## Hyperparameter Tuning
+
+During the experimentation process, we performed an extensive search over the hyperparameter space. A total of **384 different combinations** of hyperparameters were tested to find the model that yields the best performance. The hyperparameters that we tuned include:
+
+- Learning rate
+- Maximum depth of the trees
+- Number of estimators
+- Loss function
+- Subsample fraction
+- Minimum number of samples required to split an internal node
+- Minimum number of samples required to be at a leaf node
+
+This extensive search allowed us to explore a wide range of models and identify the combination of hyperparameters that optimizes the performance for this specific dataset.
+
+
 ## Results
 
 The experimentation results can be viewed in detail on the Weights & Biases dashboard. This includes various performance metrics such as accuracy, along with the hyperparameters used for each experiment.
