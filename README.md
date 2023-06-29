@@ -53,17 +53,6 @@ The model with the best score achieved an accuracy of **0.9815**. This high leve
 
 This combination of hyperparameters allowed the Gradient Boosting Classifier to capture the underlying patterns in the data efficiently and make highly accurate predictions.
 
-## Best Model
-
-The model with the best score has the following hyperparameters:
-- Learning rate: 0.1
-- Loss function: deviance
-- Max depth: 3
-- min_samples_leaf: 2
-- min_samples_split: 2
-- n_estimators: 50
-- subsample: 1
-
 ## Running the Code
 
 To run the code, first, ensure you have all the dependencies installed:
