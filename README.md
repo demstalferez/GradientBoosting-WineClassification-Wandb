@@ -1,3 +1,5 @@
+![Gradient Boosting Classifier Cover Image](Gradient Boosting Classifier.png)
+
 # Gradient Boosting Classifier for Wine Classification </br> with Weights & Biases
 
 This repository contains an experimentation project for the Data Science class at Upgrade Hub. We utilize Weights & Biases to systematically tune and evaluate the hyperparameters of a Gradient Boosting Classifier. The dataset we are working with is the Wine dataset.
