@@ -1,0 +1,55 @@
+# Gradient Boosting Classifier for Wine Classification with Weights & Biases
+
+This repository contains an experimentation project for the Data Science class at Upgrade Hub. We utilize Weights & Biases to systematically tune and evaluate the hyperparameters of a Gradient Boosting Classifier. The dataset we are working with is the Wine dataset.
+
+## About Upgrade Hub
+
+Upgrade Hub is an educational institution dedicated to offering high-quality training programs in technology and data science.
+
+## Problem Description
+
+The task at hand is a classic example of a multi-class classification problem. We aim to predict the category of wine based on several physicochemical attributes. The Wine dataset is a common benchmark dataset in the machine learning community.
+
+## Dataset
+
+The Wine dataset is a publicly available dataset that contains 178 samples of wines with 13 different attributes such as Alcohol content, Malic acid, Ash, etc. There are three classes, representing three different types of wines. The dataset is well-suited for classification experiments.
+
+## Experimentation
+
+For this project, we utilize the Gradient Boosting Classifier, a powerful ensemble machine learning algorithm that builds on decision trees. It is particularly known for its effectiveness in classification problems.
+
+To find the best model, we explore various combinations of hyperparameters such as learning rate, maximum depth of the trees, the number of estimators, etc. Through systematic experimentation, we aim to understand the effect of these hyperparameters on the model's performance and find the combination that yields the best results.
+
+We integrate Weights & Biases into our experimentation pipeline, which allows us to log the hyperparameters and the performance metrics for each experiment. Weights & Biases provides us with an interactive dashboard where we can visualize and analyze the results.
+
+## Results
+
+The experimentation results can be viewed in detail on the Weights & Biases dashboard. This includes various performance metrics such as accuracy, along with the hyperparameters used for each experiment.
+
+🔗 [View Experimentation Results](https://api.wandb.ai/links/demstalfer/qnqgjsqc)
+
+## Best Model
+
+The model with the best score has the following hyperparameters:
+- Learning rate: 0.1
+- Loss function: deviance
+- Max depth: 3
+- min_samples_leaf: 2
+- min_samples_split: 2
+- n_estimators: 50
+- subsample: 1
+
+## Running the Code
+
+To run the code, first, ensure you have all the dependencies installed:
+
+
+## Contributions
+
+Contributions to this repository are welcome. Please, ensure that the code follows best practices and is well-documented.
+
+## License
+
+This project is licensed under the MIT License.
+
+
