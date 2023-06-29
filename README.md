@@ -5,6 +5,11 @@ This repository contains an experimentation project for the Data Science class a
 
 [Upgrade Hub](https://www.upgrade-hub.com/) is an educational institution dedicated to offering high-quality training programs in technology and data science.
 
+## Results
+
+The experimentation results can be viewed in detail on the Weights & Biases dashboard. This includes various performance metrics such as accuracy, along with the hyperparameters used for each experiment.
+
+🔗 [View Experimentation Results](https://api.wandb.ai/links/demstalfer/qnqgjsqc)
 
 ## Problem Description
 
@@ -47,14 +52,6 @@ The model with the best score achieved an accuracy of **0.9815**. This high leve
 - subsample: 1
 
 This combination of hyperparameters allowed the Gradient Boosting Classifier to capture the underlying patterns in the data efficiently and make highly accurate predictions.
-
-
-
-## Results
-
-The experimentation results can be viewed in detail on the Weights & Biases dashboard. This includes various performance metrics such as accuracy, along with the hyperparameters used for each experiment.
-
-🔗 [View Experimentation Results](https://api.wandb.ai/links/demstalfer/qnqgjsqc)
 
 ## Best Model
 
