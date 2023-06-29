@@ -22,7 +22,7 @@ To find the best model, we explore various combinations of hyperparameters such 
 
 We integrate Weights & Biases into our experimentation pipeline, which allows us to log the hyperparameters and the performance metrics for each experiment. Weights & Biases provides us with an interactive dashboard where we can visualize and analyze the results.
 
-## Hyperparameter Tuning
+## Hyperparameter Tuning and Best Model
 
 During the experimentation process, we performed an extensive search over the hyperparameter space. A total of **384 different combinations** of hyperparameters were tested to find the model that yields the best performance. The hyperparameters that we tuned include:
 
@@ -35,6 +35,19 @@ During the experimentation process, we performed an extensive search over the hy
 - Minimum number of samples required to be at a leaf node
 
 This extensive search allowed us to explore a wide range of models and identify the combination of hyperparameters that optimizes the performance for this specific dataset.
+
+The model with the best score achieved an accuracy of **0.9815**. This high level of accuracy indicates that the model is highly effective in classifying the wine samples correctly. The hyperparameters of the best model are as follows:
+
+- Learning rate: 0.1
+- Loss function: deviance
+- Max depth: 3
+- min_samples_leaf: 2
+- min_samples_split: 2
+- n_estimators: 50
+- subsample: 1
+
+This combination of hyperparameters allowed the Gradient Boosting Classifier to capture the underlying patterns in the data efficiently and make highly accurate predictions.
+
 
 
 ## Results
